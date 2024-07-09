@@ -1,4 +1,5 @@
 import auth from "./auth";
-import service from "./service"
-import order from "./order"
-export {auth, service, order}
+import services from "./services";
+import orders from "./orders";
+import clients from "./clients";
+export {auth, services, orders, clients}

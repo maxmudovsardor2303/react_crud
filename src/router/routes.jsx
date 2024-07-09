@@ -1,23 +1,26 @@
+import LocalPostOfficeIcon from '@mui/icons-material/LocalPostOffice';
 import HomeIcon from '@mui/icons-material/Home';
-import DryCleaningIcon from '@mui/icons-material/DryCleaning';
-import ListAltIcon from '@mui/icons-material/ListAlt';
-
 const routes = [
-	{
-		path: "/main",
-		content: "Asosiy",
-		icon: <HomeIcon/>
-	},
-	{
-		path: "/main/orders",
-		content: "Buyurtmalar",
-		icon: <ListAltIcon/>
-	},
-	{
-		path: "/main/services",
-		content: "Xizmatlar",
-		icon: <DryCleaningIcon/>
-	},
-];
+    {
+        path: "/",
+        content: "Home",
+        icon: <HomeIcon/>
+    },
+    {
+        path: "/services",
+        content: "Service",
+        icon: <LocalPostOfficeIcon/>
+    },
+    {
+        path: "/orders",
+        content: "Order",
+        icon: <LocalPostOfficeIcon/>
+    },
+    {
+        path: "/clients",
+        content: "Clients",
+        icon: <LocalPostOfficeIcon/>
+    }
+]
 
-export default routes;
+export default routes

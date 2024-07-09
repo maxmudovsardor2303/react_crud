@@ -1,11 +1,13 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet } from "react-router-dom"
+import { ToastContainer } from "react-toastify"
+function App() {
 
-const App = () => {
-	return (
-		<div>
-			<Outlet/>
-		</div>
-	)
+  return (
+    <>
+    <ToastContainer />
+    <Outlet/>
+    </>
+  )
 }
 
 export default App

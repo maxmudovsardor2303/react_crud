@@ -1,5 +1,7 @@
-import SignUpModal from "./sign-up-modal"
-import ForgotPasswordModal from "./forget-password-modal"
-import ServiceModal from "./service-modal"
-import OrdersModal from "./order-modal"
-export {SignUpModal, ForgotPasswordModal, ServiceModal, OrdersModal}
+import LogOutModal from "./logout"
+import VerifyModal from "./verify"
+import SignInModal from "./signin"
+import OrderModal from "./orders"
+import OrderUpdate from "./order-update"
+
+export { LogOutModal, VerifyModal, SignInModal, OrderModal, OrderUpdate }
